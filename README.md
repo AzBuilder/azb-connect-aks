@@ -21,3 +21,5 @@ These are the environment variables that the docker image suppor:
 ```bash
 docker run -e RESOURCE_GROUP=XXXXX -e AKS_NAME=XXXXX azb-connect-aks
 ```
+
+>The aks connection information is store inside /root/.kube/config
